@@ -53,7 +53,7 @@ class Detect_spider {
   {
     
     function crawlerDetect($USER_AGENT) {
-      $crawlers_agents = 'Google|GoogleBot|Googlebot|msnbot|Rambler|Yahoo|AbachoBOT|accoona|AcioRobot|ASPSeek|CocoCrawler|Dumbot|FAST-WebCrawler|GeonaBot|Gigabot|Lycos|MSRBOT|Scooter|AltaVista|IDBot|eStyle|Scrubby';
+      $crawlers_agents = 'Google|GoogleBot|Googlebot|msnbot|Bingbot|Teoma|80legs|xenon|baidu|Charlotte|DotBot|Sosospider|Rambler|Yahoo|AbachoBOT|Acoon|appie|Fluffy|ia_archiver|MantraAgent|Openbot|accoona|AcioRobot|ASPSeek|CocoCrawler|Dumbot|FAST-WebCrawler|GeonaBot|Gigabot|Lycos|MSRBOT|Scooter|AltaVista|IDBot|eStyle|Scrubby';
       $crawlers = explode("|", $crawlers_agents);
       foreach($crawlers as $crawler) {
         if ( strpos($USER_AGENT, $crawler) !== FALSE)
