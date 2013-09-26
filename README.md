@@ -7,6 +7,11 @@ This is my first time writing any any sort of plugin for EE. I'm not a very stro
 
 ----------
 
+Installation
+------------
+
+Download and unzip the archive. Create a folder called `detect_spider`, place the file `pi.detect_spider.php` inside the folder and upload the `detect_spider` folder to /system/expressionengine/third_party/.
+
 
 Basic Usage
 -------------
